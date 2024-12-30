@@ -19,7 +19,7 @@ public class TicTacToe extends JFrame implements ActionListener {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 buttons[i][j] = new JButton("");
-                buttons[i][j].setFont(new Font("Arial", Font.BOLD + Font.ITALIC, 40));
+                buttons[i][j].setFont(new Font("Arial", Font.BOLD , 40));
                 buttons[i][j].setBackground(new Color(245, 245, 220));
                 buttons[i][j].setForeground(Color.black);
                 buttons[i][j].setFocusPainted(false);
